@@ -1,0 +1,74 @@
+.container {
+  max-width: 750px;      
+  margin: 0 auto;          
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+  overflow: hidden;
+}
+
+.wbu-div{
+ background: linear-gradient(to right, #5289f9, #4d677a);
+ height: 100px;
+ margin-right: 20px;
+ margin-left: 20px;
+ margin-top: 10px;
+ margin-bottom: 50px;
+ border-radius: 10px;
+ display: flex;
+ justify-content: space-between;
+
+}
+.wbu{
+  margin-left: 10px;
+  padding-top: 20px;
+  font-size: 20px;
+  color: white;
+}
+.user{
+  margin-left: 10px;
+  font-size: 20px;
+  color: white;
+
+}
+.a-wb-p-buttons{
+  text-decoration: none;
+  height: 40px;
+  margin-top: 29px;
+
+}
+.productb-button{
+ background-color: #4077a1;
+ text-align: center;
+ margin-right: 9px;
+ width: 90px;
+}
+.productb-button:active{
+  background-color: #455a81;
+}
+.hero_image{
+  width: 100%;
+  object-fit: contain;
+  border-radius: 105px;
+  aspect-ratio: 2.3;
+}
+.evah1{
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+}
+.evap1{
+  text-align: center;
+  margin: 10px;
+  font-size: 15px;
+}
+.evap2{
+  text-align: center;
+  margin: 10px;
+}
+.evap3{
+  text-align: center;
+  margin: 10px;
+}
+.navigate{
+  margin-bottom: 20px;
+}
