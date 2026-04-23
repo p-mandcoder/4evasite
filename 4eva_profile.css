@@ -15,6 +15,7 @@
   height: 130px;
   border-radius: 10px;
   display: flex;
+  box-shadow: rgb(173, 173, 173) 3px 0.1px 10px;
 
   
 }
@@ -27,15 +28,14 @@
   margin-right: 10px;
 }
 .user-details{
-    display: flex; 
-    width: 100%;
+  display: flex; 
+  width: 100%;
 
 }
 .user-name{
   margin-top: 40px;
-  font-size: 15px;
+  font-size: 19px;
   margin-right: 10px;
-
 }
 .level{
   margin-top: 52px;
@@ -45,9 +45,24 @@
   font-size: 13px;
   margin-top: 3px;
 }
+.money-available-div{
+  background-image: linear-gradient(120deg, rgb(119, 250, 119) 0%, rgb(194, 253, 184) 100%);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  margin-top: -25px;
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgb(173, 173, 173) 1px 0.1px 10px;
+  text-align: center;
+  
+}
 .money-available{
-  font-size: 15px;
-  margin-top: 3px;
+  font-size: 19px;
+  margin-top: 18px;
+  color: #ffffff;
 }
 .transactions-div{
  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
@@ -58,9 +73,10 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  box-shadow: rgb(173, 173, 173) 3px 0.1px 10px;
 }
 .withdrawal-div{
-  width: 90px;
+  width: 100px;
   margin-left: 37px;
   margin-top: 10px;
 }
@@ -69,8 +85,8 @@
 }
 .withdrawal-button{
   color: black;
-  font-size: 15px;
-  width: 90px;
+  font-size: 19px;
+  width: 120px;
 }
 .withdrawal-button:active{
   color: antiquewhite;
@@ -81,8 +97,8 @@
 }
 .recharge-button{
   color: black;
-  font-size: 15px;
-  width: 90px;
+  font-size: 19px;
+  width: 120px;
 }
 .recharge-button:active{
   color: antiquewhite;
@@ -93,8 +109,8 @@
 }
 .transaction-history-button{
   color: black;
-  font-size: 15px;
-  width: 150px;
+  font-size: 19px;
+  width: 195px;
 }
 .transaction-history-button:active{
   color: antiquewhite;
@@ -108,6 +124,7 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  box-shadow: rgb(173, 173, 173) 3px 0.1px 10px;
   
 }
 .settings-a{
@@ -119,8 +136,8 @@
   width: 70px;
 }
 .settings-button{
-  font-size: 15px;
-  width: 70px;
+  font-size: 18px;
+  width: 75px;
   margin-left: 0;
 }
 .bank-account-a{
@@ -128,14 +145,14 @@
   margin-left: 27px;
   margin-bottom: 5px;
   color: rgb(255, 255, 255);
-  font-size: 15px;
+  font-size: 18px;
   height: 30px;
   width: 70px;
   text-decoration: none;
 }
 .BA-button{
-  font-size: 15px;
-  width: 100px;
+  font-size: 18px;
+  width: 120px;
   margin-left: 0;
 }
 .sign-out-a{
@@ -147,8 +164,8 @@
   width: 70px;
 }
 .sign-out-button{
-  font-size: 15px;
-  width: 70px;
+  font-size: 18px;
+  width: 90px;
   margin-left: 0; 
   color: red;
   height: 30px;

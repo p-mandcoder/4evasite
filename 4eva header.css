@@ -1,6 +1,14 @@
 body{
    margin-bottom: 60px;     
 }
+.background-image{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
 .container {
   max-width: 768px;       
   margin: 0 auto;     
@@ -8,6 +16,7 @@ body{
   box-shadow: 0 0 10px rgba(0,0,0,0.1); 
   position: relative;
   min-height: 100vh;
+
 }
 
 
@@ -26,6 +35,12 @@ body{
     max-width: 750px;
     margin: 0 auto;
     justify-content: space-around;
+    z-index: 10;
+
+}
+.content{
+  position: relative;
+  z-index: 1
 
 }
 .a-buttons{
